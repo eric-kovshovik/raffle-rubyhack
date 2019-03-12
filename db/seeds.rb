@@ -14,3 +14,10 @@
     email: Faker::Internet.email
   )
 end
+
+10.times do |prize|
+  Prize.create(
+    name: Faker::Creature::Animal.name,
+    description: Faker::Quote.famous_last_words
+  )
+end
