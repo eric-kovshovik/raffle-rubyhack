@@ -14,7 +14,7 @@
 !/tmp/.keep
 .idea
 .env
-
+public/packs/
 
 # Ignore uploaded files in development
 /storage/*
